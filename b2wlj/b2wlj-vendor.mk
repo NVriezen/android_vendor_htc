@@ -18,7 +18,6 @@
 PRODUCT_PACKAGES += \
     libtime_genoff \
     CIRModule \
-    htcirlibs \
-    libril
+    htcirlibs
 
 $(call inherit-product, vendor/htc/b2wlj/b2wlj-vendor-blobs.mk)
