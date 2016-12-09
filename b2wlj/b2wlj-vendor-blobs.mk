@@ -167,24 +167,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/alIAF_InData_4M2M:/system/etc/firmware/alIAF_InData_4M2M \
         vendor/htc/b2wlj/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
         vendor/htc/b2wlj/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
-        vendor/htc/b2wlj/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/egl/libGLESv2_adreno.so:/system/vendor/lib/egl/libGLESv2_adreno.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libc2d30.so:/system/vendor/lib/libc2d30.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
@@ -261,7 +243,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
         vendor/htc/b2wlj/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b00:/system/vendor/firmware/wcnss.b00 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b01:/system/vendor/firmware/wcnss.b01 \
@@ -318,3 +299,4 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03
 
+$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
