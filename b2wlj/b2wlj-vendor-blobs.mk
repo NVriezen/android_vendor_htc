@@ -213,8 +213,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libril-qc-qmi-1.so:/system/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
-        vendor/htc/b2wlj/proprietary/blobs/b2ul/vendor/lib/libril-qc-qmi-1.so:system/blobs/b2ul/vendor/lib/libril-qc-qmi-1.so \
-        vendor/htc/b2wlj/proprietary/blobs/b2ul/vendor/lib/libril-qcril-hook-oem.so:system/blobs/b2ul/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/b2wlj/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
         vendor/htc/b2wlj/proprietary/bin/time_daemon:/system/bin/time_daemon \
         vendor/htc/b2wlj/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
