@@ -185,11 +185,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/b3-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/b3-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
-    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
-    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
-    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster.b03 \
-    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster.mdt \
+    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/htc/b3-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/htc/b3-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/htc/b3-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
