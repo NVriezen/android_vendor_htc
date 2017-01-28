@@ -179,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_default_video.so:system/lib/libchromatix_ov2722_subcam_default_video.so \
     vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_hdr.so:system/lib/libchromatix_ov2722_subcam_hdr.so \
     vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_liveshot.so:system/lib/libchromatix_ov2722_subcam_liveshot.so \
-    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_liveshot.so:system/lib/libchromatix_ov2722_subcam_liveshot.so \
     vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_postproc.so:system/lib/libchromatix_ov2722_subcam_postproc.so \
     vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_preview.so:system/lib/libchromatix_ov2722_subcam_preview.so \
     vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_snapshot.so:system/lib/libchromatix_ov2722_subcam_snapshot.so \
