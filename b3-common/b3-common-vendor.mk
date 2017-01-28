@@ -171,6 +171,19 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/htc/b3-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/b3-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_common.so:system/lib/libchromatix_ov2722_subcam_common.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_cpp_liveshot.so:system/lib/libchromatix_ov2722_subcam_cpp_liveshot.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_cpp_preview.so:system/lib/libchromatix_ov2722_subcam_cpp_preview.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_cpp_snapshot.so:system/lib/libchromatix_ov2722_subcam_cpp_snapshot.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_cpp_video.so:system/lib/libchromatix_ov2722_subcam_cpp_video.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_default_video.so:system/lib/libchromatix_ov2722_subcam_default_video.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_hdr.so:system/lib/libchromatix_ov2722_subcam_hdr.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_liveshot.so:system/lib/libchromatix_ov2722_subcam_liveshot.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_liveshot.so:system/lib/libchromatix_ov2722_subcam_liveshot.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_postproc.so:system/lib/libchromatix_ov2722_subcam_postproc.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_preview.so:system/lib/libchromatix_ov2722_subcam_preview.so \
+    vendor/htc/b3-common/proprietary/lib/libchromatix_ov2722_subcam_snapshot.so:system/lib/libchromatix_ov2722_subcam_snapshot.so \
+    vendor/htc/b3-common/proprietary/lib/libmmcamera_ov2722_subcam.so:system/lib/libmmcamera_ov2722_subcam.so \
     vendor/htc/b3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/b3-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/b3-common/proprietary/lib/libscaler.so:system/lib/libscaler.so \
