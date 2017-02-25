@@ -798,7 +798,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so
 
 PRODUCT_PACKAGES += \
-    libril \
     libTimeService \
     libtime_genoff \
     TimeService
