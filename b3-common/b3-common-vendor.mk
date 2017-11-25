@@ -1,4 +1,5 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -801,6 +802,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
     libTimeService \
+    libtime_genoff \
     TimeService
