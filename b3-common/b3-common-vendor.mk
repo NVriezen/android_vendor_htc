@@ -757,11 +757,50 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/htc/b3-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/htc/b3-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so
+    vendor/htc/b3-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/hw/vulkan.msm8994.so:system/vendor/lib/hw/vulkan.msm8994.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/hw/vulkan.msm8994.so:system/vendor/lib64/hw/vulkan.msm8994.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/htc/b3-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService \
     TimeService
-
-$(call inherit-product, vendor/qcom/binaries/msm8994/graphics/graphics-vendor.mk)
