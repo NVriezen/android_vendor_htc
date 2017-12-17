@@ -171,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/hw/sensors.msm8994.so:system/vendor/lib64/hw/sensors.msm8994.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libgps.utils.so:system/vendor/lib64/libgps.utils.so \
+    vendor/htc/b3-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libloc_core.so:system/vendor/lib64/libloc_core.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
@@ -375,6 +376,18 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2720_postproc.so:system/vendor/lib/libchromatix_ov2720_postproc.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2720_preview.so:system/vendor/lib/libchromatix_ov2720_preview.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_common.so:system/vendor/lib/libchromatix_ov2722_subcam_common.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_liveshot.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_liveshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_preview.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_preview.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_snapshot.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_snapshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_video.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_video.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_default_video.so:system/vendor/lib/libchromatix_ov2722_subcam_default_video.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_hdr.so:system/vendor/lib/libchromatix_ov2722_subcam_hdr.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_liveshot.so:system/vendor/lib/libchromatix_ov2722_subcam_liveshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_postproc.so:system/vendor/lib/libchromatix_ov2722_subcam_postproc.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_preview.so:system/vendor/lib/libchromatix_ov2722_subcam_preview.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_snapshot.so:system/vendor/lib/libchromatix_ov2722_subcam_snapshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libmmcamera_ov2722_subcam.so:system/vendor/lib/libmmcamera_ov2722_subcam.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov4688_common.so:system/vendor/lib/libchromatix_ov4688_common.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so \
@@ -568,18 +581,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_vd6869_preview.so:system/vendor/lib/libchromatix_vd6869_preview.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_vd6869_preview_24fps.so:system/vendor/lib/libchromatix_vd6869_preview_24fps.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_vd6869_snapshot.so:system/vendor/lib/libchromatix_vd6869_snapshot.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_common.so:system/vendor/lib/libchromatix_ov2722_subcam_common.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_liveshot.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_liveshot.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_preview.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_preview.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_snapshot.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_snapshot.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_video.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_video.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_default_video.so:system/vendor/lib/libchromatix_ov2722_subcam_default_video.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_hdr.so:system/vendor/lib/libchromatix_ov2722_subcam_hdr.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_liveshot.so:system/vendor/lib/libchromatix_ov2722_subcam_liveshot.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_postproc.so:system/vendor/lib/libchromatix_ov2722_subcam_postproc.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_preview.so:system/vendor/lib/libchromatix_ov2722_subcam_preview.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_snapshot.so:system/vendor/lib/libchromatix_ov2722_subcam_snapshot.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libmmcamera_ov2722_subcam.so:system/vendor/lib/libmmcamera_ov2722_subcam.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -589,6 +590,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -751,7 +753,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/htc/b3-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/htc/b3-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
