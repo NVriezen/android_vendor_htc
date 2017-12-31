@@ -126,29 +126,16 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera2_stats_modules.so:/system/vendor/lib/libmmcamera2_stats_modules.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera2_vpe_module.so:/system/vendor/lib/libmmcamera2_vpe_module.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera2_wnr_module.so:/system/vendor/lib/libmmcamera2_wnr_module.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:/system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:/system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_cac_lib.so:/system/vendor/lib/libmmcamera_cac_lib.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_faceproc.so:/system/vendor/lib/libmmcamera_faceproc.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:/system/vendor/lib/libmmcamera_hdr_gb_lib.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_hdr_lib.so:/system/vendor/lib/libmmcamera_hdr_lib.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_imglib.so:/system/vendor/lib/libmmcamera_imglib.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_imx214.so:/system/vendor/lib/libmmcamera_imx214.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:/system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_ov2722_subcam.so:/system/vendor/lib/libmmcamera_ov2722_subcam.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:/system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:/system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_s5k5e.so:/system/vendor/lib/libmmcamera_s5k5e.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:/system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:/system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:/system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_sp1628.so:/system/vendor/lib/libmmcamera_sp1628.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:/system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
@@ -174,8 +161,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
         vendor/htc/b2wlj/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
         vendor/htc/b2wlj/proprietary/etc/firmware/alIAF_InData_4M2M:/system/etc/firmware/alIAF_InData_4M2M \
-        vendor/htc/b2wlj/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
-        vendor/htc/b2wlj/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
         vendor/htc/b2wlj/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/b2wlj/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
@@ -291,7 +276,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/b2wlj/proprietary/bin/irsc_util:/system/bin/irsc_util \
-        vendor/htc/b2wlj/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
         vendor/htc/b2wlj/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/htc/b2wlj/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/b2wlj/proprietary/bin/qseecomd:/system/bin/qseecomd \
