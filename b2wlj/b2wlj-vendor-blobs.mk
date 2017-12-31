@@ -196,12 +196,16 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqdi.so:/system/vendor/lib/libqdi.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqdp.so:/system/vendor/lib/libqdp.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi_cci.so:/system/vendor/lib/libqmi_cci.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libqmi_client_helper.so:/system/vendor/lib/libqmi_client_helper.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi_client_qmux.so:/system/vendor/lib/libqmi_client_qmux.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi_common_so.so:/system/vendor/lib/libqmi_common_so.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi_csi.so:/system/vendor/lib/libqmi_csi.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi_csvt_srvc.so:/system/vendor/lib/libqmi_csvt_srvc.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi_encdec.so:/system/vendor/lib/libqmi_encdec.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmiservices.so:/system/vendor/lib/libqmiservices.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libsmemlog.so:/system/vendor/lib/libsmemlog.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libsystem_health_mon.so:/system/vendor/lib/libsystem_health_mon.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libxml.so:/system/vendor/lib/libxml.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libqmi.so:/system/vendor/lib/libqmi.so \
         vendor/htc/b2wlj/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/b2wlj/proprietary/vendor/lib/libnetmgr.so:/system/vendor/lib/libnetmgr.so \
