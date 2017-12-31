@@ -225,11 +225,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b02:/system/etc/firmware/dxhdcp2.b02 \
         vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.b03:/system/etc/firmware/dxhdcp2.b03 \
         vendor/htc/b2wlj/proprietary/etc/firmware/dxhdcp2.mdt:/system/etc/firmware/dxhdcp2.mdt \
-        vendor/htc/b2wlj/proprietary/vendor/firmware.b00:/system/vendor/firmware.b00 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware.b01:/system/vendor/firmware.b01 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware.b02:/system/vendor/firmware.b02 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware.b03:/system/vendor/firmware.b03 \
-        vendor/htc/b2wlj/proprietary/vendor/firmware.mdt:/system/vendor/firmware.mdt \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
+        vendor/htc/b2wlj/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
