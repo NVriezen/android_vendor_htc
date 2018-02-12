@@ -302,3 +302,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03
+
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    CIRModule \
+    htcirlibs
