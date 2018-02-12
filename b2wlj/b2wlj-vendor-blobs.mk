@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b2wlj/proprietary/vendor/lib/libtuning_aec_imx214_hdr.so:system/vendor/lib/libtuning_aec_imx214_hdr.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libtuning_aec_imx214_night.so:system/vendor/lib/libtuning_aec_imx214_night.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libtuning_aec_imx214_video.so:system/vendor/lib/libtuning_aec_imx214_video.so \
-    vendor/htc/b2wlj/proprietary/vendor/lib/libtuning_aec_imx214_videoHDR.so:system/vendor/lib/libtuning_aec_imx214_videoHDR.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libtuning_aec_imx214_videoHFR.so:system/vendor/lib/libtuning_aec_imx214_videoHFR.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libtuning_aec_imx214_video_60fps.so:system/vendor/lib/libtuning_aec_imx214_video_60fps.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libtuning_aec_imx214_zoe.so:system/vendor/lib/libtuning_aec_imx214_zoe.so \
@@ -196,7 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_hfr.so:system/vendor/lib/libchromatix_imx214_hfr.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_hfr_60fps.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
-    vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_imx214_zoe.so:system/vendor/lib/libchromatix_imx214_zoe.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_common.so:system/vendor/lib/libchromatix_s5k5e_common.so \
     vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_s5k5e_default_video.so:system/vendor/lib/libchromatix_s5k5e_default_video.so \
