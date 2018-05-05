@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
-        vendor/htc/b2wlj/proprietary/vendor/bin/mm-qcamera-app:/system/vendor/bin/mm-qcamera-app \
         vendor/htc/b2wlj/proprietary/vendor/bin/mm-qcamera-daemon:/system/vendor/bin/mm-qcamera-daemon \
         vendor/htc/b2wlj/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/htc/b2wlj/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -214,12 +213,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/hw/sensors.msm8974.so:/system/vendor/lib/hw/sensors.msm8974.so \
         vendor/htc/b2wlj/proprietary/vendor/bin/time_daemon:/system/vendor/bin/time_daemon \
-        vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b03:/system/etc/firmware/hcheck.b03 \
-        vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.mdt:/system/etc/firmware/hcheck.mdt \
-        vendor/htc/b2wlj/proprietary/vendor/bin/hcheck:/system/vendor/bin/hcheck \
         vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b01:/system/vendor/firmware/cmnlib.b01 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/cmnlib.b02:/system/vendor/firmware/cmnlib.b02 \
@@ -277,7 +270,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/bin/adsprpcd:/system/vendor/bin/adsprpcd \
         vendor/htc/b2wlj/proprietary/vendor/bin/cir_fw_update:/system/vendor/bin/cir_fw_update \
         vendor/htc/b2wlj/proprietary/vendor/bin/qseecomd:/system/vendor/bin/qseecomd \
-        vendor/htc/b2wlj/proprietary/vendor/bin/ptt_socket_app:/system/vendor/bin/ptt_socket_app \
         vendor/htc/b2wlj/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
         vendor/htc/b2wlj/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/b2wlj/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
