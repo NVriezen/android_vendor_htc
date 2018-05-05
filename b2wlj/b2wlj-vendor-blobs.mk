@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/b2wlj/proprietary/etc/firmware/lscbuffer_rev2.bin:/system/etc/firmware/lscbuffer_rev2.bin \
         vendor/htc/b2wlj/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+        vendor/htc/b2wlj/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_ov2722_subcam_default_video.so:/system/vendor/lib/libchromatix_ov2722_subcam_default_video.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libchromatix_ov2722_subcam_common.so:/system/vendor/lib/libchromatix_ov2722_subcam_common.so \
