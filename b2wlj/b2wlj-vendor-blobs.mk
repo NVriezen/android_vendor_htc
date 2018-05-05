@@ -214,7 +214,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/hw/sensors.msm8974.so:/system/vendor/lib/hw/sensors.msm8974.so \
         vendor/htc/b2wlj/proprietary/vendor/bin/time_daemon:/system/vendor/bin/time_daemon \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
         vendor/htc/b2wlj/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
@@ -256,16 +255,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b08:/system/vendor/firmware/wcnss.b08 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.b09:/system/vendor/firmware/wcnss.b09 \
         vendor/htc/b2wlj/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
         vendor/htc/b2wlj/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
-        vendor/htc/b2wlj/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/b2wlj/proprietary/vendor/bin/radish:/system/vendor/bin/radish \
         vendor/htc/b2wlj/proprietary/vendor/bin/hci_qcomm_init:/system/vendor/bin/hci_qcomm_init \
         vendor/htc/b2wlj/proprietary/vendor/lib/hw/consumerir.default.so:/system/vendor/lib/hw/consumerir.default.so \
